@@ -1,0 +1,32 @@
+.navbar {
+  background: none !important;
+}
+
+.nav_foucs:focus {
+  box-shadow: none;
+}
+
+.logo,
+.logo:hover {
+  font-size: 36px;
+  font-weight: 700;
+  color: #144575;
+}
+
+.formControl {
+  margin-right: 20px;
+}
+
+.formControl:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #144575;
+  outline: 0;
+  box-shadow: none;
+}
+
+.searchBtn,
+.searchBtn:hover {
+  background: #144575;
+  border-color: #144575;
+}

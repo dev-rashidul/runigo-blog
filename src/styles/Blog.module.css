@@ -1,0 +1,140 @@
+.blog_wrapper {
+  padding: 60px 0;
+}
+
+.blog_title h2 {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  color: #144575;
+  padding-bottom: 80px;
+  margin-bottom: 0;
+}
+
+.blog_title h2 span {
+  color: #ff52ba;
+}
+
+.blog_card_img img {
+  max-width: 100%;
+  width: 100%;
+  min-height: 420px;
+  max-height: 420px;
+  object-fit: cover;
+  padding-bottom: 15px;
+}
+
+.blog_category a {
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: none;
+  background-color: #1f4673;
+  color: #ffffff;
+  padding: 5px 10px;
+}
+
+.blog_card_time {
+  display: flex;
+  align-items: center;
+  padding: 18px 0 15px;
+}
+
+.blog_card_time p {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  color: #012545;
+  margin-bottom: 0;
+  margin-right: 20px;
+}
+
+.blog_card_time svg {
+  font-size: 20px;
+  color: #ff52ba;
+  margin-right: 10px;
+}
+
+.blog_card_title {
+  display: block;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-decoration: none;
+  color: #144575;
+  margin-bottom: 20px;
+}
+
+.blog_card_title:hover {
+  color: #ff52ba;
+}
+
+.blog_right_card_img img {
+  max-width: 100%;
+  width: 100%;
+  min-height: 200px;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.blog_right_card_title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  text-decoration: none;
+  color: #144575;
+}
+
+.blog_right_card_title:hover {
+  color: #ff52ba;
+}
+
+.blog_right_card {
+  padding-bottom: 20px;
+}
+
+/* ===========***===========
+Responsive CSS
+===========***=========== */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .blog_title h2 {
+    font-size: 36px;
+  }
+
+  .blog_right_card_img img {
+    max-width: 100%;
+    width: 100%;
+    min-height: 300px;
+    max-height: 300px;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .blog_title h2 {
+    font-size: 30px;
+    padding-bottom: 50px;
+  }
+
+  .blog_card_img img {
+    max-width: 100%;
+    width: 100%;
+    min-height: 300px;
+    max-height: 300px;
+    object-fit: cover;
+  }
+
+  .blog_card_title {
+    font-size: 24px;
+  }
+
+  .blog_right_card_img img {
+    max-width: 100%;
+    width: 100%;
+    min-height: 300px;
+    max-height: 300px;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+}
