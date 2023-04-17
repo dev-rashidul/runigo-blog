@@ -10,7 +10,7 @@
 .logo:hover {
   font-size: 36px;
   font-weight: 700;
-  color: #144575;
+  color: #1dbf73;
 }
 
 .formControl {
@@ -20,13 +20,13 @@
 .formControl:focus {
   color: #212529;
   background-color: #fff;
-  border-color: #144575;
+  border-color: #1dbf73;
   outline: 0;
   box-shadow: none;
 }
 
 .searchBtn,
 .searchBtn:hover {
-  background: #144575;
-  border-color: #144575;
+  background: #1dbf73;
+  border-color: #1dbf73;
 }
