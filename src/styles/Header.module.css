@@ -6,11 +6,9 @@
   box-shadow: none;
 }
 
-.logo,
-.logo:hover {
-  font-size: 36px;
-  font-weight: 700;
-  color: #1dbf73;
+.logo img {
+  max-width: 150px;
+  width: 100%;
 }
 
 .formControl {
@@ -29,4 +27,11 @@
 .searchBtn:hover {
   background: #1dbf73;
   border-color: #1dbf73;
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .logo img {
+    max-width: 100px;
+    width: 100%;
+  }
 }

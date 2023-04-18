@@ -1,5 +1,6 @@
-import { Button, Container, Form, Nav, Navbar } from "react-bootstrap";
+import { Button, Container, Form, Image, Nav, Navbar } from "react-bootstrap";
 import { BiSearch } from "react-icons/bi";
+import logo from "../../images/logo.png";
 import styles from "../../styles/Header.module.css";
 
 const Header = () => {
@@ -8,7 +9,7 @@ const Header = () => {
       <Navbar className={styles.navbar} bg="light" expand="lg">
         <Container>
           <Navbar.Brand className={styles.logo} href="#home">
-            Logo
+            <Image src={logo.src}></Image>
           </Navbar.Brand>
           <Navbar.Toggle className={styles.nav_foucs} aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
